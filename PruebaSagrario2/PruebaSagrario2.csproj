@@ -51,7 +51,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HttpCliente.cs" />
-    <Compile Include="Modelo\Empresa.cs" />
     <Compile Include="Modelo\FacturaCabecera.cs" />
     <Compile Include="Modelo\Persona.cs" />
     <Compile Include="Modelo\Producto.cs" />

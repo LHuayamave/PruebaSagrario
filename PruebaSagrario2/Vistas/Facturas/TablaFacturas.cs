@@ -24,17 +24,7 @@ namespace PruebaSagrario2.Vistas.Facturas
             CargarDatos();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            if (txtNombre.Text.Equals(""))
-            {
-                CargarDatos();
-            }
-            else
-            {
-                FiltrarDatosPorNombre(txtNombre.Text);
-            }
-        }
+
 
         private async void FiltrarDatosPorNombre(string nombre)
         {

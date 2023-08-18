@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Net.Http;
@@ -37,7 +38,7 @@ namespace PruebaSagrario2.Vistas.Personas
             {
                 label6.Visible = true;
                 txtFechaCreacion.Visible = true;
-                txtFechaCreacion.Text = DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ss.fff"); 
+                txtFechaCreacion.Text = DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ss.fff");
             }
             else
             {
